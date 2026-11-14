@@ -237,8 +237,8 @@ def examples(state: State) -> Page:
 def formulas(state: State) -> Page:
     return Page(state, [
         Header("Formulas"),
-        Text("Moles = grams / molar mass"),
-        Text("Percent Yield = Actual / Theoretical × 100"),
+        Text("Moles = grams / molar mass, "),
+        Text("Percent Yield = Actual / Theoretical × 100 "),
         Link("Home", "/")
     ])
 
@@ -246,7 +246,7 @@ def formulas(state: State) -> Page:
 def about(state: State) -> Page:
     return Page(state, [
         Header("About"),
-        Text("Built using Python and Drafter."),
+        Text("Built using Python and Drafter. Can currently only use H, O, C, N, Cl, and Na."),
         Link("Home", "/")
     ])
 
