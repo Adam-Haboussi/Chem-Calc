@@ -155,13 +155,15 @@ def home(state: State) -> Page:
         [
             Header("Chemistry Assistant"),
             Text("This tool helps students solve stoichiometry problems."),
-            Link("Start Calculation", "/calculate"),
-            ", ",
-            Link("Examples", "/examples"),
-            ", ",
-            Link("About", "/about"),
-            ", ",
-            Link("Formulas", "/formulas")
+            Span(
+                Link("Start Calculation", "/calculate"),
+                ", ",
+                Link("Examples", "/examples"),
+                ", ",
+                Link("About", "/about"),
+                ", ",
+                Link("Formulas", "/formulas")
+            )
         ]
     )
 
