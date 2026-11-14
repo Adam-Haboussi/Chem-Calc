@@ -6,7 +6,7 @@ set_site_information(
     author="Adam Haboussi",
     description="Used to Calculate Chem related things",
     sources="Thanks to the Drafter docs",
-    planning=["plan.pdf", "design.pdf"],
+    planning=["Plan.pdf", "Design.pdf"],
     links=["https://github.com/your-username/your-repository"]
 )
 hide_debug_information()
