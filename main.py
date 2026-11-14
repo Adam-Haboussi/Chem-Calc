@@ -7,7 +7,7 @@ set_site_information(
     description="Used to Calculate Chem related things",
     sources="Thanks to the Drafter docs",
     planning=["Plan.pdf", "Design.pdf"],
-    links=["https://github.com/your-username/your-repository"]
+    links=["https://github.com/Adam-Haboussi/Chem-Calc"]
 )
 hide_debug_information()
 set_website_framed(False)
@@ -156,8 +156,11 @@ def home(state: State) -> Page:
             Header("Chemistry Assistant"),
             Text("This tool helps students solve stoichiometry problems."),
             Link("Start Calculation", "/calculate"),
+            Text(", "),
             Link("Examples", "/examples"),
+            Text(", "),
             Link("About", "/about"),
+            Text(", "),
             Link("Formulas", "/formulas")
         ]
     )
